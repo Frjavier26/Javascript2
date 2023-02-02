@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Parte 1 --> 
+        <section class="parte1">
+            <h2>Haz click en la foto</h2>
+
+            <div class="content">
+                <img src="assets/img/hamburguesa3.jpg" alt="" id="imagen1" style="border:none">
+            </div>
+
+        </section>
+        <!-- Fin parte 1 -->
+
+        <!-- Parte 2 -->
+        <div class="parte2">
+            <h2>Puedes llevar hasta 10 stickers</h2>
+            <div class="choose">
+                <div class="sticker">
+                    <img src="assets/img/5f5696f24322de00046d5778.png" alt="">
+                    <input type="number" id="sticker1" value="0" min="0" max="10">
+                </div>
+                <div class="sticker">
+                    <img src="assets/img/pngwing.com (1).png" alt="">
+                    <input type="number" id="sticker2" value="0" min="0" max="10">
+                </div>
+                <div class="sticker">
+                    <img src="assets/img/pngwing.com.png" alt="">
+                    <input type="number" id="sticker3" value="0" min="0" max="10">
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="verificador">Verificar</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+        <!--Fin parte 2-->
+
+        <!--Parte 3-->
+        <div class="parte3">
+            <h2>Ingresa el Password correcto</h2>
+            <div class="password">
+                <input type="number" id="pass1" value="0" min="0" max="9">
+                <input type="number" id="pass2" value="0" min="0" max="9">   
+                <input type="number" id="pass3" value="0" min="0" max="9">       
+            </div>
+            <button id="enter">Ingresar</button>
+            
+            <h2 id="acceso"></h2>
+        </div>   
+    </div> 
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
